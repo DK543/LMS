@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 244, 244);
+    color:white;
+  }
+  
+  header {
+    background-color:white;
+    color: #1a73e8;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: #333;
+  }
+  section{
+    background-color:white;
+    color: #1a73e8;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: #333;
+  }
+  
+  /* p{
+    background-color: #1a73e8;
+  } */
+  footer {
+    background-color: white;
+    margin-top: 0%;
+    text-align: center;
+    padding: 0.5rem;
+    background: #1a73e8;
+    color: #fff;
+    margin-bottom: 0%;
+
+  }
+  
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .course {
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .course h2 {
+    margin-top: 0;
+    color: wheat;
+  }
+  
+  .course a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: #333;
+  }
+  
+  .course a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: #45a049;
+  } */
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
